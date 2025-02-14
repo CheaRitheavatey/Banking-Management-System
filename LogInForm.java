@@ -34,8 +34,8 @@ public class LogInForm {
         title.setFont(new Font("Arial", Font.BOLD, 18));
         panelLeft.add(title, gbc);
 
-        JLabel emailLabel = new JLabel("Email");
-        panelLeft.add(emailLabel, gbc);
+        JLabel name = new JLabel("Name");
+        panelLeft.add(name, gbc);
         
         JTextField email = new JTextField(20);
         panelLeft.add(email, gbc);
